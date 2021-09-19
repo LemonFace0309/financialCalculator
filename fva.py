@@ -14,7 +14,6 @@ def getFVA():
     pmt = Symbol('pmt')
     i = Symbol('i')
     n = Symbol('n')
-    missing = 'fv'
 
     if variable == 'FV':
         pmt = float(input('Enter PMT: '))
@@ -24,17 +23,14 @@ def getFVA():
         fv = float(input('Enter FV: '))
         i = float(input('Enter i: '))
         n = int(input('Enter n: '))
-        missing = 'pmt'
     elif variable == 'i':
         fv = float(input('Enter FV: '))
         pmt = float(input('Enter PMT: '))
         n = int(input('Enter n: '))
-        missing = 'i'
     elif variable == 'n':
         fv = float(input('Enter FV: '))
         pmt = float(input('Enter PMT: '))
         i = float(input('Enter i: '))
-        missing = 'n'
 
-    sol = solve(fv - pmt * ((((1+i)**n) - 1) / i), missing)
+    sol = solve(fv - pmt * ((((1+i)**n) - 1) / i), variable)
     print(sol)

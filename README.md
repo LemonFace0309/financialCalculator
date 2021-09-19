@@ -16,4 +16,5 @@ Inspired after being assigned 84 annuities questions for my BU 283 homework assi
 | EIR            | Effective Interest Rate            |
 | FVA            | Future Value of an Annuity         |
 | PVA            | Present Value of an Annuity        |
+| PA             | Perpetuity (Perpetual Annuity)     |
 
