@@ -1,7 +1,7 @@
 # Financial Calculator
 Inspired after being assigned 84 annuities questions for my BU 283 homework assignment.
 
-| Appreviation   | Meaning                            |
+| Abbreviation   | Meaning                            |
 | :------------: | :--------------------------------- |
 | FV             | Future Value                       |
 | PV             | Present Value                      |
